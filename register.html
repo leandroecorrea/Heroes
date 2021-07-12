@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Heroes</title>
+</head>
+<body>
+    <header>
+    <div class="top-tienda">20% de descuento en todos los productos!</div>    
+    <div class="background-blue nombre-tienda">
+        <img src="img/OBJECTS.png" alt="">
+        <span> Nombre tienda</span> 
+    </div>    
+    </header>
+    <main class="form-main-section">
+        <div class="form-container">
+            <H1 class="form-title">Registro</H1>
+            <form action="POST">
+                <input type="text" name="usuario" id="usuario" placeholder="Nombre y Apellido">
+                <input type="email" name="email" id="email" placeholder="Correo electrónico">
+                <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña">
+                <select name="pais" id="pais"> 
+                    <option name="pais" id="pais" value="" disabled selected hidden>País</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Perú">Perú</option>
+                </select>
+                <div class="button-container">
+                    <button type="reset" name="reset" id="reset-register">Resetear</button>                   
+                    <button type="submit" name="enter" id="enter-register">Registrar</button>   
+                </div>                              
+                <div class="register-link">¿Ya tenés una cuenta?  <a href="">Ingresá</a></div>
+            </form>
+        </div>
+                                 
+    </main>
+    <footer class="background-blue foot-form">
+        Todos los derechos reservados a FRONT END 1
+    </footer>
+    
+</body>
+</html>
